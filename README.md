@@ -19,6 +19,14 @@ textToSimlish("Hello, how are you?");
 stopSimlish();
 ```
 
+TypeScript también puede importar los tipos incluidos en el paquete:
+
+```ts
+import * as Sims from "@dolchi21/texttosimlish";
+
+Sims.textToSimlish("Hello, how are you?");
+```
+
 `textToSimlish` devuelve una promesa y requiere un navegador con `AudioContext`.
 Invócala como respuesta a una interacción del usuario para que el navegador
 permita iniciar la reproducción de audio.

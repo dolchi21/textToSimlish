@@ -1,14 +1,20 @@
 {
   "name": "@dolchi21/texttosimlish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn text into Simlish-style synthesized speech in the browser",
   "main": "index.js",
+  "types": "index.d.ts",
   "type": "commonjs",
   "exports": {
-    ".": "./index.js"
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "default": "./index.js"
+    }
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "README.md",
     "LICENSE"
   ],
