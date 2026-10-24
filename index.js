@@ -159,6 +159,4 @@ function stopSimlish() {
   activeNodes = [];
 }
 
-// Uso:
-// textToSimlish("Hello, how are you?");
-// stopSimlish();
+module.exports = { textToSimlish, stopSimlish };
