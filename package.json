@@ -1,0 +1,33 @@
+{
+  "name": "@dolchi21/texttosimlish",
+  "version": "1.0.0",
+  "description": "Turn text into Simlish-style synthesized speech in the browser",
+  "main": "index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "simlish",
+    "text-to-speech",
+    "audio",
+    "browser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dolchi21/textToSimlish/issues"
+  },
+  "homepage": "https://github.com/dolchi21/textToSimlish#readme"
+}
